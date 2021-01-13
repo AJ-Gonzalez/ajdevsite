@@ -9,7 +9,7 @@ def index():
     collaboratively building lean and efficient applications. Hands-on approach to development,
     testing, and deployment, with a talent for adapting to new ecosystems and toolkits.
     """
-    techs=['Python Developement: Flask, Django, Pandas, Bokeh',
+    techs=['Python Develpement: Flask, Django, Pandas, Bokeh',
            'Ticketing Sytems: ServiceNow, ZenDesk',
            'System Administration: Debian, Ubuntu, CentOS, Arch, etc.',
            'Containers: Docker, Podman',
