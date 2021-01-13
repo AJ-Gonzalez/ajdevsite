@@ -1,0 +1,77 @@
+body {
+background-color: #1a1a1a;
+
+}
+.title {
+  font-family: 'Yusei Magic', sans-serif;
+  color: ivory;
+  font-size: 38px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.des {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 24px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.text {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 22px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.demo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+.logos {
+  text-align: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 5px;
+
+}
+.mono {
+  font-family: 'Inconsolata', monospace;
+  color: ivory;
+  font-size: 20px;
+}
+li {
+  padding: 3px;
+}
+img {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+/* unvisited link */
+a:link {
+ color: white;
+}
+
+/* visited link */
+a:visited {
+ color: aliceblue;
+}
+
+/* mouse over link */
+a:hover {
+ color: hotpink;
+}
+
+/* selected link */
+a:active {
+ color: ivory;
+}

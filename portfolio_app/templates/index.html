@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="static/style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link rel="icon" type="image/vnd.microsoft.icon" href="static/favicon.ico">
+<title>AJ Gonzalez: Developer, Enthusiast</title>
+</head>
+<body>
+<div class="title">
+<b>AJ Gonzalez: Developer, Enthusiast</b>
+</div>
+<div class="des">
+{{txt}}
+</div>
+<div class="text">
+<b>Experienced in:</b>
+<ul>
+		{% for galaxy in techs %}
+				<li>{{ galaxy }}</li>
+		{% endfor %}
+</ul>
+</div>
+<div class="logos">
+	<a href="https://github.com/AJ-Gonzalez"><img src="static/GitHub-Mark-Light-120px-plus.png" alt="GitHub"></a>
+	<a href="https://www.linkedin.com/in/aj-gonzalez-2859b2200/"><img src="static/LI-In-Bug.png" style="width:127px;height:108px;" alt="LinkedIn"></a>
+</div>
+<div class="demo">
+	<a href="/demos"><b>Portfolio on this site & Demos</b></a>
+</div>
+</body>
+</html>
