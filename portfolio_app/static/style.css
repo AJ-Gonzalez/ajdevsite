@@ -28,6 +28,12 @@ background-color: #1a1a1a;
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.smol {
+  padding: 5px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 18px;
+}
 .demo {
   font-family: 'Montserrat', sans-serif;
   font-size: 28px;
